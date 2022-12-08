@@ -68,11 +68,11 @@ export default ({ roundedHeaderButton }) => {
             {/*  <img src={CustomersLogoStripImage} alt="Our Customers" />*/}
             {/*</CustomersLogoStrip>*/}
           </LeftColumn>
-          <RightColumn>
-            <IllustrationContainer>
-              <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />
-            </IllustrationContainer>
-          </RightColumn>
+          {/*<RightColumn>*/}
+          {/*  <IllustrationContainer>*/}
+          {/*    <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />*/}
+          {/*  </IllustrationContainer>*/}
+          {/*</RightColumn>*/}
         </TwoColumn>
         <DecoratorBlob1 />
       </Container>
