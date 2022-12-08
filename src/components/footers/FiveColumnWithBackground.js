@@ -1,12 +1,12 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
+// import { css } from "styled-components/macro"; //eslint-disable-line
 
 import LogoImage from "images/comeSocialLogo.png";
-import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
+// import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
+// import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
+// import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-9.svg";
 
 const Container = tw.div`relative bg-primary-500 text-gray-100 -mb-8 -mx-8 px-8 py-20 lg:py-24`;
@@ -52,23 +52,23 @@ export default () => {
     <Container>
       <Content>
         <FiveColumns>
-          {/*<Column>*/}
-          {/*  <ColumnHeading>Main</ColumnHeading>*/}
-          {/*  <LinkList>*/}
-          {/*    <LinkListItem>*/}
-          {/*      <Link href="#">Blog</Link>*/}
-          {/*    </LinkListItem>*/}
-          {/*    <LinkListItem>*/}
-          {/*      <Link href="#">FAQs</Link>*/}
-          {/*    </LinkListItem>*/}
+          <Column>
+            <ColumnHeading>BİZE ULAŞIN</ColumnHeading>
+            <LinkList>
+              <LinkListItem>
+                <Link href="mailto:comesocialapp@gmail.com">comesocialapp@gmail.com</Link>
+              </LinkListItem>
+              <LinkListItem>
+                <Link href="tel:905551630853">+90 555 163 08 53</Link>
+              </LinkListItem>
           {/*    <LinkListItem>*/}
           {/*      <Link href="#">Support</Link>*/}
           {/*    </LinkListItem>*/}
           {/*    <LinkListItem>*/}
           {/*      <Link href="#">About Us</Link>*/}
           {/*    </LinkListItem>*/}
-          {/*  </LinkList>*/}
-          {/*</Column>*/}
+            </LinkList>
+          </Column>
           {/*<Column>*/}
           {/*  <ColumnHeading>Product</ColumnHeading>*/}
           {/*  <LinkList>*/}
