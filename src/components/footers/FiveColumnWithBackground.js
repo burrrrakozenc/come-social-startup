@@ -27,17 +27,17 @@ const ThreeColRow = tw.div`flex flex-col md:flex-row items-center justify-betwee
 
 const LogoContainer = tw.div`flex items-center justify-center md:justify-start`;
 const LogoImg = tw.img`w-8`;
-const LogoText = tw.h5`ml-2 text-xl font-black tracking-wider text-gray-100`;
+// const LogoText = tw.h5`ml-2 text-xl font-black tracking-wider text-gray-100`;
 
 const CopywrightNotice = tw.p`text-center text-sm sm:text-base mt-8 md:mt-0 font-medium text-gray-400`;
 
-const SocialLinksContainer = tw.div`mt-8 md:mt-0 flex`;
-const SocialLink = styled.a`
-  ${tw`cursor-pointer p-2 rounded-full bg-gray-100 text-gray-900 hover:bg-gray-400 transition duration-300 mr-4 last:mr-0`}
-  svg {
-    ${tw`w-4 h-4`}
-  }
-`;
+// const SocialLinksContainer = tw.div`mt-8 md:mt-0 flex`;
+// const SocialLink = styled.a`
+  // ${tw`cursor-pointer p-2 rounded-full bg-gray-100 text-gray-900 hover:bg-gray-400 transition duration-300 mr-4 last:mr-0`}
+  //svg {
+  //   ${tw`w-4 h-4`}
+  //}
+// `;
 
 const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-lg`;
 const DecoratorBlob1 = tw(

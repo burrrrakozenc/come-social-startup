@@ -21,7 +21,7 @@ import {Helmet} from "react-helmet";
 
 export default () => {
     const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
-    const HighlightedText = tw.span`text-primary-500`;
+    // const HighlightedText = tw.span`text-primary-500`;
 
     return (
         <AnimationRevealPage>
