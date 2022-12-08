@@ -502,6 +502,7 @@ export const components = {
         },
       }
     }
+
   }
 }
 

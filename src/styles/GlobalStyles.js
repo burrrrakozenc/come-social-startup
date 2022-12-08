@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle(globalStyles, `
      transition: transform 300ms ease-in-out;
      transition-delay: 100ms;
      transform: scale(0);
+     margin: 00000;
    }
    .ReactModal__Overlay--after-open{
      transform: scale(1);
