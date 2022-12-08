@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
-import styled from "styled-components";
+// import styled from "styled-components";
 // import { css } from "styled-components/macro"; //eslint-disable-line
 
 import LogoImage from "images/comeSocialLogo.png";
