@@ -7,7 +7,7 @@ import tw from "twin.macro";
 import Header from "../headers/light.js";
 
 // import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-// import DesignIllustration from "../../images/design-illustration-2.svg";
+import DesignIllustration from "../../images/design-illustration-2.svg";
 // import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
 
 const Container = tw.div`relative`;
@@ -69,9 +69,9 @@ export default ({ roundedHeaderButton }) => {
             {/*</CustomersLogoStrip>*/}
           </LeftColumn>
           <RightColumn>
-          {/*  <IllustrationContainer>*/}
-          {/*    <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />*/}
-          {/*  </IllustrationContainer>*/}
+            <IllustrationContainer>
+              <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />
+            </IllustrationContainer>
           </RightColumn>
         </TwoColumn>
         {/*<DecoratorBlob1 />*/}
