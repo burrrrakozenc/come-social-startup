@@ -28,7 +28,7 @@ const Paragraph = tw.p`my-5 lg:my-8 text-base xl:text-lg`;
 //   }
 // `;
 
-// const IllustrationContainer = tw.div`flex justify-center lg:justify-end items-center`;
+const IllustrationContainer = tw.div`flex justify-center lg:justify-end items-center`;
 
 // Random Decorator Blobs (shapes that you see in background)
 // const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
