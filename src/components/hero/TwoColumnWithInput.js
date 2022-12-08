@@ -7,7 +7,7 @@ import tw from "twin.macro";
 import Header from "../headers/light.js";
 
 // import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-import DesignIllustration from "../../images/design-illustration-2.svg";
+import DesignIllustration from "../../images/mainHero.jpeg";
 // import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
 
 const Container = tw.div`relative`;
